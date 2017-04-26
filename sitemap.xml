@@ -12,6 +12,12 @@
   </url>
   
   <url>
+    <loc>http://nihirash.github.io/</loc>
+    <lastmod>2017-04-26T17:10:21+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://nihirash.github.io/post/</loc>
     <lastmod>2017-04-26T17:10:21+03:00</lastmod>
     <priority>0</priority>
@@ -25,12 +31,6 @@
   
   <url>
     <loc>http://nihirash.github.io/tags/</loc>
-    <lastmod>2017-04-26T17:10:21+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nihirash.github.io/</loc>
     <lastmod>2017-04-26T17:10:21+03:00</lastmod>
     <priority>0</priority>
   </url>
