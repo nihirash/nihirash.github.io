@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nihirash&#39;s blog</title>
-    <link>http://nihirash.github.io/post/</link>
-    <description>Recent content in Posts on Nihirash&#39;s blog</description>
+    <title>Музыка on Nihirash&#39;s blog</title>
+    <link>http://nihirash.github.io/tags/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/</link>
+    <description>Recent content in Музыка on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
     <lastBuildDate>Thu, 27 Apr 2017 11:47:21 +0300</lastBuildDate>
     
-	<atom:link href="http://nihirash.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nihirash.github.io/tags/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>http://nihirash.github.io/post/openbsd-6.1-song/</guid>
       <description>&lt;p&gt;И релиз своей операционной системы.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Добро пожаловать!</title>
-      <link>http://nihirash.github.io/post/welcome/</link>
-      <pubDate>Wed, 26 Apr 2017 17:10:21 +0300</pubDate>
-      
-      <guid>http://nihirash.github.io/post/welcome/</guid>
-      <description>&lt;p&gt;Всем дня!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
