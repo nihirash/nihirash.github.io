@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unix on Nihirash&#39;s blog</title>
-    <link>http://nihirash.github.io/tags/unix/</link>
-    <description>Recent content in Unix on Nihirash&#39;s blog</description>
+    <title>X11 on Nihirash&#39;s blog</title>
+    <link>http://nihirash.github.io/tags/x11/</link>
+    <description>Recent content in X11 on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
     <lastBuildDate>Sat, 29 Apr 2017 12:44:26 +0300</lastBuildDate>
     
-	<atom:link href="http://nihirash.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nihirash.github.io/tags/x11/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>http://nihirash.github.io/post/week-of-wayland/</guid>
       <description>&lt;p&gt;Вот и прошла неделя с тех пор, как я снес заводскую убунту со своего ноутбука и установил туда Fedora 25 с Gnome 3, работающим поверх Wayland.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Команда OpenBSD, наконец-то представила очередную песню!</title>
-      <link>http://nihirash.github.io/post/openbsd-6.1-song/</link>
-      <pubDate>Thu, 27 Apr 2017 11:47:21 +0300</pubDate>
-      
-      <guid>http://nihirash.github.io/post/openbsd-6.1-song/</guid>
-      <description>&lt;p&gt;И релиз своей операционной системы.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
