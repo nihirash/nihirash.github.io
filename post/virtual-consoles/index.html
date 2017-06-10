@@ -4,28 +4,36 @@
     <meta name="generator" content="Hugo 0.20.5" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux | Nihirash&#39;s blog</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="gamedev, жизнь, музыка, операционные системы, разработка, ">
+    <title>Бум &#34;виртуальных консолей&#34; и Lua в массы | Nihirash&#39;s blog</title>
+    <meta name="description" content="Последнее время пошла просто волна создания &ldquo;виртуальных консолей&rdquo; или &ldquo;эмуляторов несуществующих консолей.
+
+А, по факту, просто искуственно ограниченных игровых движков(причем повально завязанных на Lua - в связи с простотой встраивания), со встроенной средой разработкой &ldquo;все в одном&rdquo;
+
+">
+    <meta name="keywords" content="lua, gamedev, linux, unix">
     
     
     
-    
-      <meta name="robots" content="noindex">
     
     
 
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="Linux" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://nihirash.github.io/tags/linux/" />
+    <meta property="og:title" content="Бум &#34;виртуальных консолей&#34; и Lua в массы" />
+<meta property="og:description" content="Последнее время пошла просто волна создания &ldquo;виртуальных консолей&rdquo; или &ldquo;эмуляторов несуществующих консолей.
+
+А, по факту, просто искуственно ограниченных игровых движков(причем повально завязанных на Lua - в связи с простотой встраивания), со встроенной средой разработкой &ldquo;все в одном&rdquo;
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://nihirash.github.io/post/virtual-consoles/" />
 
 
 
-<meta property="og:updated_time" content="2017-06-10T15:40:39&#43;03:00"/>
+<meta property="article:published_time" content="2017-06-10T15:40:39&#43;03:00"/>
+<meta property="article:modified_time" content="2017-06-10T15:40:39&#43;03:00"/>
+
 
 
 
@@ -53,9 +61,7 @@
 
     
     
-      <link href="http://nihirash.github.io/tags/linux/index.xml" rel="alternate" type="application/rss+xml" title="Nihirash&#39;s blog" />
-    
-    <link rel="canonical" href="http://nihirash.github.io/tags/linux/">
+    <link rel="canonical" href="http://nihirash.github.io/post/virtual-consoles/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -144,17 +150,27 @@ article [itemprop="description"] {
 
 </header>
     <main>
-  <header>
-    <h1>Linux</h1>
-  </header>
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/virtual-consoles/">Бум &#34;виртуальных консолей&#34; и Lua в массы</a>
-    </h2>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
     
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+<meta itemprop="name" content="Бум &#34;виртуальных консолей&#34; и Lua в массы">
+<meta itemprop="description" content="Последнее время пошла просто волна создания &ldquo;виртуальных консолей&rdquo; или &ldquo;эмуляторов несуществующих консолей.
+
+А, по факту, просто искуственно ограниченных игровых движков(причем повально завязанных на Lua - в связи с простотой встраивания), со встроенной средой разработкой &ldquo;все в одном&rdquo;
+
+">
+
+
+<meta itemprop="dateModified" content="2017-06-10T15:40:39&#43;03:00" />
+<meta itemprop="wordCount" content="438">
+
+
+
+<meta itemprop="keywords" content="gamedev,жизнь,музыка,операционные-системы,разработка,gamedev,linux,lua,openbsd,shell,slice-of-life,unix,wayland,x11,безопасность,игры,музыка,песня,разработка," />
+
+    <header>
+      <h1 itemprop="headline">Бум &#34;виртуальных консолей&#34; и Lua в массы</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
@@ -165,109 +181,119 @@ article [itemprop="description"] {
 
   Опубликовано: <time datetime="2017-06-10T15:40:39&#43;03:00">10.06.2017</time>
 
-</p>
+
+      </p>
+    </header>
     
-  </header>
-  
-  <div itemprop="description">
-    <p>Последнее время пошла просто волна создания &ldquo;виртуальных консолей&rdquo; или &ldquo;эмуляторов несуществующих консолей.</p>
+    
+
+    <div itemprop="articleBody">
+      <p>Последнее время пошла просто волна создания &ldquo;виртуальных консолей&rdquo; или &ldquo;эмуляторов несуществующих консолей.</p>
 
 <p>А, по факту, просто искуственно ограниченных игровых движков(причем повально завязанных на Lua - в связи с простотой встраивания), со встроенной средой разработкой &ldquo;все в одном&rdquo;</p>
 
 <p></p>
-  </div>
-  
-    <p><a itemprop="url" href="/post/virtual-consoles/">Дальше&nbsp;&raquo;</a></p>
-  
-  <meta itemprop="inLanguage" content="ru-Ru">
-  <meta itemprop="datePublished" content="2017-06-10T15:40:39&#43;03:00">
-  <meta itemprop="dateModified" content="2017-06-10T15:40:39&#43;03:00">
-  
-</article>
 
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/encrypted-bash/">Варианты обфускации bash-скриптов</a>
-    </h2>
+<h2 id="с-чего-все-начиналось">С чего все начиналось</h2>
+
+<p>Если забыть про Codea, то один из первых таких движков, на который я наткнулся - это <a href="https://github.com/antirez/load81">Load81</a> - он представляет из себя Commodore-64 образную среду для разработке на Lua и ограничения по графике.</p>
+
+<p><img src="https://camo.githubusercontent.com/b98c081e24b9a2d9e853c7aad59c4c44ea73aba4/687474703a2f2f616e746972657a2e636f6d2f6d6973632f636f64616b69646f5f73637265656e73686f745f312e706e67" alt="Load81 в режиме разработки" /></p>
+
+<p>Проект доступен в виде исходных кодов, и подозреваю, что он стал стартовой площадкой для многих других подобных проектов.</p>
+
+<h2 id="pico-8-по-настоящему-массовая-консоль">Pico-8. По-настоящему, массовая &ldquo;консоль&rdquo;</h2>
+
+<p>И так, все тот же Lua доступный пользователю, все тот же SDL под капотом.</p>
+
+<p>Что же отличает?</p>
+
+<p>Бешеное разрешение 128x128 пикселей, при 16 доступных цветах.</p>
+
+<p>Встроенные редакторы графики, уровней и музыки. Что делает возможным создание полностьб законченных игр использую только Pico-8.</p>
+
+<p>Эта радость доступна пользователям всех живых платформ - даже Raspberry Pi и Pocket CHIP(с которым она сейчас поставляется в комплекте) не обошли стороной.</p>
+
+<p>Имеется даже своя &ldquo;BBS&rdquo;, куда можно выкладывать готовые игры .</p>
+
+<p>Обитает эта радость <a href="https://www.lexaloffle.com/pico-8.php">тут</a>. Стоит 15 баксов, а если докинуть еще 5 - то можно получть пак из Pico-8 и Voxaltron&rsquo;а - близкой консоли, но уже вместо пикселей имеем воксели.</p>
+
+<h2 id="хочется-бесплатно">Хочется бесплатно?</h2>
+
+<p>Если просто хочется поиграть в игры, созданные для Pico-8 можно использовать движок-плеер <a href="https://github.com/picolove/picolove">PicoLove</a>. Он позволяет выполнять игры для Pico-8 поверх игрового движка Love2D.</p>
+
+<p>Если хочется и создавать игры - наиболее близкий(даже с режимом совместимости) клон - это <a href="https://github.com/Gigoteur/PX8">PX-8</a>. Тут нам доступен в добавок к Lua еще и Python. В виде бинарных сборок доступно для Raspberry Pi 3, Linux, macOS и Windows. Доступны исходные коды на Rust, что позволит сделать Ваш порт под Вашу ОС, ну или доработать систему.</p>
+
+<p><a href="https://github.com/RamiLego4Game/LIKO-12">Liko-12</a> - еще один проект, вдохновленный Pico-8. Проект создан поверх Love2D, имеет хорошую документацию, а так же их компьютер обзавелся консолью(не знаю, насколько это хорошо). Работает везде, где есть Love2D, редактор графики есть, а вот редактором карт его обделили. Сам я в него палкой не тыкал - подробнее рассказать не могу.</p>
+
+<h2 id="наш-ответ-чемберлену">Наш ответ чемберлену.</h2>
+
+<p>Tic-80 - наиболее активная разработка(по крайней мере, как кажется мне) - очень часто выходят обновлнения, которые делают систему только лучше.</p>
+
+<p>Доступна бесплатно(но без исходных кодов) под все основные платформы, но пока что Raspberry Pi пролетает, имеется отличная документация на английском и русском языках.</p>
+
+<p>По возможностями не уступает Pico-8, умеет экспортировать в HTML5 готовые проекты. Технические характеристики даже получше, чем у Pico-8 - разрешение экрана 240x136, 64К оперативной памяти(против 32К у Pico), 512 &ldquo;аппаратных&rdquo; спрайтов с масштабированием, 2 геймпада + мышка.</p>
+
+<p>Поиграться в <a href="https://tic.computer/play?cart=2">Jet Pac</a> можно на официальном сайте, где есть и другие игры.</p>
+
+<p>Изучить исходники любой игры можно зажав ESC.</p>
+
+<p>Желаю всем приятного ковыряния.</p>
+    </div>
+
+    <div id="vk_comments"></div>
+    <script type="text/javascript">
+	VK.Widgets.Comments("vk_comments", {limit: 10, attach: false});
+    </script>
+
     
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>2 минут(а) на прочтение</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Опубликовано: <time datetime="2017-05-05T16:45:01&#43;03:00">5.05.2017</time>
-
+    <footer>
+      <hr>
+      <p>
+  Опубликовано
+  
+    
+     <span itemprop="author"></span>
+    
+  
+  <time datetime="2017-06-10T15:40:39&#43;03:00">
+    10.06.2017
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/gamedev/">gamedev</a></span>
+  
+  
+   с тегами <a href="/tags/gamedev/">gamedev</a>, <a href="/tags/linux/">linux</a>, <a href="/tags/lua/">lua</a> и <a href="/tags/unix/">unix</a>
+  
 </p>
-    
-  </header>
-  
-  <div itemprop="description">
-    <p>У одного моего друга есть необходимость защитить шелл скрипты, в которых могут фигурировать или имена серверов, или пароли от нежелательного копания и ничайного запуска. Он задал мне вопрос - как же это можно реализовать - я задумался и нашел несколько вариантов.</p>
-
-<p></p>
-  </div>
-  
-    <p><a itemprop="url" href="/post/encrypted-bash/">Дальше&nbsp;&raquo;</a></p>
-  
-  <meta itemprop="inLanguage" content="ru-Ru">
-  <meta itemprop="datePublished" content="2017-05-05T16:45:01&#43;03:00">
-  <meta itemprop="dateModified" content="2017-05-05T16:45:01&#43;03:00">
-  
-</article>
-
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/week-of-wayland/">Неделя с Wayland.</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>2 минут(а) на прочтение</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Опубликовано: <time datetime="2017-04-29T12:44:26&#43;03:00">29.04.2017</time>
-
+<p>
+	Потрачено <span itemprop="wordCount">438</span> слов.
 </p>
-    
-  </header>
-  
-  <div itemprop="description">
-    <p>Вот и прошла неделя с тех пор, как я снес заводскую убунту со своего ноутбука и установил туда Fedora 25 с Gnome 3, работающим поверх Wayland.</p>
 
-<p></p>
-  </div>
+      
   
-    <p><a itemprop="url" href="/post/week-of-wayland/">Дальше&nbsp;&raquo;</a></p>
-  
-  <meta itemprop="inLanguage" content="ru-Ru">
-  <meta itemprop="datePublished" content="2017-04-29T12:44:26&#43;03:00">
-  <meta itemprop="dateModified" content="2017-04-29T12:44:26&#43;03:00">
-  
-</article>
 
-  
+
+
+  <aside>
+    <header>Схожие публикации</header>
+    <ul>
+      
+      
+        <li><a href="/post/encrypted-bash/">Варианты обфускации bash-скриптов</a> &ndash; 2 minutes
+      
+        <li><a href="/post/week-of-wayland/">Неделя с Wayland.</a> &ndash; 2 minutes
+      
+        <li><a href="/post/openbsd-6.1-song/">Команда OpenBSD, наконец-то представила очередную песню!</a> &ndash; 1 minutes
+      
+    </ul>
+  </aside>
+
+
+    </footer>
+  </article>
 </main>
     <footer>
-  <nav>
-  <p>
-    
-    <span>Страница 1 из 1</span>
-    
-  </p>
-</nav>
-
   
   <p class="muted">
     Тема основана на 

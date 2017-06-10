@@ -6,10 +6,23 @@
     <description>Recent content on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
-    <lastBuildDate>Fri, 05 May 2017 16:45:01 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jun 2017 15:40:39 +0300</lastBuildDate>
     
 	<atom:link href="http://nihirash.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Бум &#34;виртуальных консолей&#34; и Lua в массы</title>
+      <link>http://nihirash.github.io/post/virtual-consoles/</link>
+      <pubDate>Sat, 10 Jun 2017 15:40:39 +0300</pubDate>
+      
+      <guid>http://nihirash.github.io/post/virtual-consoles/</guid>
+      <description>&lt;p&gt;Последнее время пошла просто волна создания &amp;ldquo;виртуальных консолей&amp;rdquo; или &amp;ldquo;эмуляторов несуществующих консолей.&lt;/p&gt;
+
+&lt;p&gt;А, по факту, просто искуственно ограниченных игровых движков(причем повально завязанных на Lua - в связи с простотой встраивания), со встроенной средой разработкой &amp;ldquo;все в одном&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Варианты обфускации bash-скриптов</title>

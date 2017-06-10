@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nihirash.github.io/post/virtual-consoles/</loc>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nihirash.github.io/post/encrypted-bash/</loc>
     <lastmod>2017-05-05T16:45:01+03:00</lastmod>
   </url>
@@ -27,14 +32,32 @@
   </url>
   
   <url>
+    <loc>http://nihirash.github.io/tags/gamedev/</loc>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nihirash.github.io/categories/gamedev/</loc>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://nihirash.github.io/tags/linux/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nihirash.github.io/tags/lua/</loc>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://nihirash.github.io/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,7 +69,7 @@
   
   <url>
     <loc>http://nihirash.github.io/post/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,13 +87,13 @@
   
   <url>
     <loc>http://nihirash.github.io/tags/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://nihirash.github.io/tags/unix/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
     <priority>0</priority>
   </url>
   
