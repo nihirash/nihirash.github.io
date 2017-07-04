@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lisp on Nihirash&#39;s blog</title>
+    <link>http://nihirash.github.io/categories/lisp/</link>
+    <description>Recent content in Lisp on Nihirash&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-Ru</language>
+    <lastBuildDate>Tue, 04 Jul 2017 12:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="http://nihirash.github.io/categories/lisp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UnCommon Lisp. Небольшие заметки на полях</title>
+      <link>http://nihirash.github.io/post/uncommon-lisp/</link>
+      <pubDate>Tue, 04 Jul 2017 12:00:00 +0300</pubDate>
+      
+      <guid>http://nihirash.github.io/post/uncommon-lisp/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://nihirash.github.io/img/developers.jpg&#34; alt=&#34;Облик современных разработчиков&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Жизнь любого разработчика рано или поздно столкнет его с таким явлением, как Lisp.&lt;/p&gt;
+
+&lt;p&gt;Причем это явление включает в себя не столько какой-то конкретный язык, сколько само направление в разработке, систему взглядов и способов решения поставленных задач.&lt;/p&gt;
+
+&lt;p&gt;Многие пытаются начинать именно с диалекта Common Lisp, на котором обычно все и заканчивается.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

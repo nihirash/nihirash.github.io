@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://nihirash.github.io/post/uncommon-lisp/</loc>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
+  </url>
   
   <url>
     <loc>http://nihirash.github.io/post/virtual-consoles/</loc>
@@ -45,7 +51,19 @@
   
   <url>
     <loc>http://nihirash.github.io/tags/linux/</loc>
-    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nihirash.github.io/tags/lisp/</loc>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nihirash.github.io/categories/lisp/</loc>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,7 +75,7 @@
   
   <url>
     <loc>http://nihirash.github.io/</loc>
-    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -68,8 +86,20 @@
   </url>
   
   <url>
+    <loc>http://nihirash.github.io/tags/picolisp/</loc>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nihirash.github.io/categories/picolisp/</loc>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://nihirash.github.io/post/</loc>
-    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,7 +111,7 @@
   
   <url>
     <loc>http://nihirash.github.io/tags/slice-of-life/</loc>
-    <lastmod>2017-04-26T17:10:21+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,7 +123,7 @@
   
   <url>
     <loc>http://nihirash.github.io/tags/unix/</loc>
-    <lastmod>2017-06-10T15:40:39+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,13 +183,13 @@
   
   <url>
     <loc>http://nihirash.github.io/tags/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://nihirash.github.io/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</loc>
-    <lastmod>2017-05-05T16:45:01+03:00</lastmod>
+    <lastmod>2017-07-04T12:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
