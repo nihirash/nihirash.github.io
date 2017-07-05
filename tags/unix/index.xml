@@ -6,10 +6,23 @@
     <description>Recent content in Unix on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
-    <lastBuildDate>Tue, 04 Jul 2017 12:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 17:45:39 +0300</lastBuildDate>
     
 	<atom:link href="http://nihirash.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Быстро найдем свои ветки в git</title>
+      <link>http://nihirash.github.io/post/git-mine-branches/</link>
+      <pubDate>Wed, 05 Jul 2017 17:45:39 +0300</pubDate>
+      
+      <guid>http://nihirash.github.io/post/git-mine-branches/</guid>
+      <description>&lt;p&gt;Каждый из нас хотя бы раз создавал слишком много веток в Git.&lt;/p&gt;
+
+&lt;p&gt;Возможно даже пушили их в ориджин, а когда нас таких десяток или несколько - то убрать за собой становится не самой простой задачей.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UnCommon Lisp. Небольшие заметки на полях</title>

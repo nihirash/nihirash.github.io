@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>http://nihirash.github.io/categories/linux/</link>
+      <pubDate>Wed, 05 Jul 2017 17:45:39 +0300</pubDate>
+      
+      <guid>http://nihirash.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lisp</title>
       <link>http://nihirash.github.io/categories/lisp/</link>
       <pubDate>Tue, 04 Jul 2017 12:00:00 +0300</pubDate>
@@ -34,6 +43,15 @@
       <pubDate>Tue, 04 Jul 2017 12:00:00 +0300</pubDate>
       
       <guid>http://nihirash.github.io/categories/picolisp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>http://nihirash.github.io/categories/unix/</link>
+      <pubDate>Wed, 05 Jul 2017 17:45:39 +0300</pubDate>
+      
+      <guid>http://nihirash.github.io/categories/unix/</guid>
       <description></description>
     </item>
     
@@ -67,7 +85,7 @@
     <item>
       <title>Разработка</title>
       <link>http://nihirash.github.io/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
-      <pubDate>Tue, 04 Jul 2017 12:00:00 +0300</pubDate>
+      <pubDate>Wed, 05 Jul 2017 17:45:39 +0300</pubDate>
       
       <guid>http://nihirash.github.io/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</guid>
       <description></description>
