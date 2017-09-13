@@ -91,5 +91,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Творчество</title>
+      <link>http://nihirash.github.io/categories/%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nihirash.github.io/categories/%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
