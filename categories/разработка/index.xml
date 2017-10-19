@@ -6,21 +6,10 @@
     <description>Recent content in Разработка on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
-    <lastBuildDate>Wed, 13 Sep 2017 13:33:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 17:45:39 +0300</lastBuildDate>
     
 	<atom:link href="http://nihirash.github.io/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Call of the lecacy</title>
-      <link>http://nihirash.github.io/post/call-of-legacy/</link>
-      <pubDate>Wed, 13 Sep 2017 13:33:00 +0300</pubDate>
-      
-      <guid>http://nihirash.github.io/post/call-of-legacy/</guid>
-      <description>&lt;p&gt;Как то работая в одном легаси хайлоад проекте мною был написан небольшой очерк.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Быстро найдем свои ветки в git</title>
@@ -59,6 +48,17 @@
       
       <guid>http://nihirash.github.io/post/encrypted-bash/</guid>
       <description>&lt;p&gt;У одного моего друга есть необходимость защитить шелл скрипты, в которых могут фигурировать или имена серверов, или пароли от нежелательного копания и ничайного запуска. Он задал мне вопрос - как же это можно реализовать - я задумался и нашел несколько вариантов.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Call of the lecacy</title>
+      <link>http://nihirash.github.io/post/call-of-legacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nihirash.github.io/post/call-of-legacy/</guid>
+      <description>&lt;p&gt;Как то работая в одном легаси хайлоад проекте мною был написан небольшой очерк.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

@@ -6,21 +6,10 @@
     <description>Recent content on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
-    <lastBuildDate>Wed, 13 Sep 2017 13:33:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 17:45:39 +0300</lastBuildDate>
     
 	<atom:link href="http://nihirash.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Call of the lecacy</title>
-      <link>http://nihirash.github.io/post/call-of-legacy/</link>
-      <pubDate>Wed, 13 Sep 2017 13:33:00 +0300</pubDate>
-      
-      <guid>http://nihirash.github.io/post/call-of-legacy/</guid>
-      <description>&lt;p&gt;Как то работая в одном легаси хайлоад проекте мною был написан небольшой очерк.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Быстро найдем свои ветки в git</title>
@@ -105,6 +94,17 @@
       
       <guid>http://nihirash.github.io/post/welcome/</guid>
       <description>&lt;p&gt;Всем дня!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Call of the lecacy</title>
+      <link>http://nihirash.github.io/post/call-of-legacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nihirash.github.io/post/call-of-legacy/</guid>
+      <description>&lt;p&gt;Как то работая в одном легаси хайлоад проекте мною был написан небольшой очерк.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

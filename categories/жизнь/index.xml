@@ -6,21 +6,10 @@
     <description>Recent content in Жизнь on Nihirash&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-Ru</language>
-    <lastBuildDate>Wed, 13 Sep 2017 13:33:00 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 29 Apr 2017 12:44:26 +0300</lastBuildDate>
     
 	<atom:link href="http://nihirash.github.io/categories/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Call of the lecacy</title>
-      <link>http://nihirash.github.io/post/call-of-legacy/</link>
-      <pubDate>Wed, 13 Sep 2017 13:33:00 +0300</pubDate>
-      
-      <guid>http://nihirash.github.io/post/call-of-legacy/</guid>
-      <description>&lt;p&gt;Как то работая в одном легаси хайлоад проекте мною был написан небольшой очерк.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Неделя с Wayland.</title>
@@ -40,6 +29,17 @@
       
       <guid>http://nihirash.github.io/post/welcome/</guid>
       <description>&lt;p&gt;Всем дня!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Call of the lecacy</title>
+      <link>http://nihirash.github.io/post/call-of-legacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nihirash.github.io/post/call-of-legacy/</guid>
+      <description>&lt;p&gt;Как то работая в одном легаси хайлоад проекте мною был написан небольшой очерк.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
